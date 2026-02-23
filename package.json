@@ -1,0 +1,29 @@
+{
+  "name": "proyecto_5_nosql",
+  "version": "1.0.0",
+  "description": "Proyecto académico de base de datos NoSQL",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^3.1.13"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceci-ce/Proyecto-5-BBDD-noSQL.git"
+  },
+  "author": "Cecilia de la Cámara Reparaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ceci-ce/Proyecto-5-BBDD-noSQL/issues"
+  },
+  "homepage": "https://github.com/ceci-ce/Proyecto-5-BBDD-noSQL#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1"
+  },
+  "keywords": []
+}
