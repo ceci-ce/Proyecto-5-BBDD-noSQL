@@ -19,7 +19,7 @@ API REST para gestionar películas, construida con **Express.js** y **MongoDB (M
 Adjunta imágenes de:
 
 ### 1. Arranque del servidor
-![Servidor arrancado](./img/server-start.png)
+![Servidor arrancado](./img/server-start.jpg)
 
 ### 2. GET todas las películas
 
@@ -36,4 +36,5 @@ Adjunta imágenes de:
 ### 8. PUT para modificar
 
 ### 9. DELETE para eliminar
+
 
