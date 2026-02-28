@@ -43,6 +43,7 @@ Adjunta imágenes de:
 ![PUT update](./img/put-update.jpg)
 
 ### 9. DELETE para eliminar
+![DELETE movie](./img/delete.delete)
 
-(./img/prueba.JPG)
+
 

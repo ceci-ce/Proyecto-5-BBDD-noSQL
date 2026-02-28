@@ -93,23 +93,12 @@ router.post('/create', async (req, res, next) => {
 // 7. PUT modificar película 
 router.put('/edit/:id', async (req, res, next) => {
   try {
-    const { id } = req.params; // Recuperamos el id de la URL
+    const { id } = req.params;
 
-    // Instanciamos una nueva Movie con los datos del body
-    const movieModify = new Movie(req.body);
+    // Actualizamos directamente con req.body
+    const movieUpdated = await Movie.findByIdAndUpdate(id, req.body, { new: true });
 
-    // Añadimos el _id a la película creada
-    movieModify._id = id;
-
-    // Actualizamos la película
-    const movieUpdated = await Movie.findByIdAndUpdate(
-      id,
-      movieModify
-    );
-
-    // Devuelve la película ANTES de modificarse
     return res.status(200).json(movieUpdated);
-
   } catch (error) {
     return next(error);
   }
