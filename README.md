@@ -44,5 +44,6 @@ Adjunta imágenes de:
 
 ### 9. DELETE para eliminar
 
-(./img/prueba.JPG)
+
+
 
